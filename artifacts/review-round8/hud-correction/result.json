@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-10-01T20:47:31Z",
+  "command": "node tools/capture.mjs --hud",
+  "exitCode": 0,
+  "errors": [],
+  "checks": [
+    "fresh paused state has no locked markers",
+    "locked class stays off over additional 5 frames",
+    "desktop 3 markers within1.2px",
+    "bank primary true projection",
+    "portrait primary and safe secondary true projection, secondary over SPEED hidden"
+  ],
+  "sourceHashes": {
+    "src/main.js": "0f7b7dc0e34f5a25f381015b2424e3a3052fab9a0ccc89fb0a7edffd5abe195b",
+    "tools/capture.mjs": "a48e8d73777ee4bc26c235c07731f1d33e1c41cb06391425fb1a2fc4b4aa8913"
+  },
+  "limitation": "phone radio/radar overlap remains for separate CSS correction; diagnostic viewport390x844 in desktop mouse context"
+}

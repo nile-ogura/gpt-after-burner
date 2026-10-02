@@ -1,0 +1,563 @@
+{
+  "capturedAt": "2026-10-01T23:54:16.876Z",
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "b225372cb96998ccaed07ae26a5a9d0b0a793e454c8c8d8353c1c8ded156042d",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "50b29856d5081c4e15a3506ae9bc2fc5450bdd558f09c78ba4bc6f8550ff3fbb",
+    "src/sky.js": "db9e7af56a73ad37539fcdbe5ec5b34cba2c02602492324c119c9f032c7166b7",
+    "src/styles.css": "49536bdb2b90cebaaaade1d14a0de33c0531e4e8e8d80d05fa9d169d95b4875b",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "25c741c41243bbe56553457566ca0e199b5a0f525071c6af15b92290ef728c95"
+  },
+  "frames": [
+    {
+      "name": "default-quality-title",
+      "state": {
+        "status": "attract",
+        "score": 0,
+        "kills": 0,
+        "stage": 1,
+        "stageName": "AIR COMBAT",
+        "biome": "coast",
+        "time": 0,
+        "missionTime": 0,
+        "stageTime": 0,
+        "health": 100,
+        "lives": 3,
+        "invulnerable": 0,
+        "missiles": 50,
+        "maxMissiles": 100,
+        "flares": 4,
+        "maxFlares": 5,
+        "lockId": null,
+        "lockIds": [],
+        "lockProgress": 0,
+        "locked": false,
+        "combo": 0,
+        "multiplier": 1,
+        "rank": "C",
+        "hit": 0,
+        "totalHit": 0,
+        "stageKind": "flight",
+        "objective": "Survive the attack formations. Build your HIT count",
+        "shots": 0,
+        "hits": 0,
+        "accuracy": 0,
+        "waves": 0,
+        "escaped": 0,
+        "boostEnergy": 100,
+        "threat": 0,
+        "closestThreat": null,
+        "threatDirection": {
+          "x": 0,
+          "y": 0
+        },
+        "warning": "",
+        "stageTransition": 0,
+        "stageDuration": 40,
+        "reloading": false,
+        "resupplyProgress": 0,
+        "autopilot": false,
+        "landingProgress": 0,
+        "rolling": false,
+        "rollProgress": 0,
+        "rollDirection": 0,
+        "rollCooldown": 0,
+        "lastStageSummary": null,
+        "difficulty": "standard",
+        "highScore": 0,
+        "resultReason": ""
+      },
+      "player": {
+        "x": 0,
+        "y": 229.7296099197985,
+        "z": 0,
+        "px": 0,
+        "py": 230,
+        "pz": 0,
+        "vx": 0,
+        "vy": 0,
+        "bank": -0.06363007082593526,
+        "pitch": -0.0043540079687744235,
+        "rollAngle": 0,
+        "speed": 1180,
+        "throttle": 0.72
+      },
+      "enemies": [],
+      "presentationTime": 17.564500000000002,
+      "fps": 1,
+      "pixelRatio": 1,
+      "drawCalls": 116,
+      "triangles": 252626,
+      "geometryBuffers": 53,
+      "textures": 39,
+      "particles": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "wakeSegments": 0,
+      "camera": {
+        "position": [
+          0,
+          234.72338635335728,
+          26
+        ],
+        "quaternion": [
+          0.012204981776719493,
+          -0.000038830323757240465,
+          0.003181261202400156,
+          0.999920455080902
+        ],
+        "fov": 54
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "terrain": [
+        {
+          "name": "Coast terrain -1 -5800",
+          "position": [
+            -4700,
+            0,
+            -5399.999999999993
+          ],
+          "side": -1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -5800",
+          "position": [
+            4700,
+            0,
+            -5399.999999999993
+          ],
+          "side": 1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain -1 -23800",
+          "position": [
+            -4700,
+            0,
+            -23399.99999999997
+          ],
+          "side": -1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -23800",
+          "position": [
+            4700,
+            0,
+            -23399.99999999997
+          ],
+          "side": 1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        }
+      ],
+      "clouds": [
+        {
+          "name": "Cloud bank 1",
+          "position": [
+            -3400,
+            1800,
+            -6420.000000000007
+          ],
+          "quaternion": [
+            0.1021873882791919,
+            0.23731894914588753,
+            -0.02511194878701617,
+            0.9657157159749902
+          ],
+          "scale": [
+            4900,
+            2450,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 2",
+          "position": [
+            4400,
+            2200,
+            -8619.999999999985
+          ],
+          "quaternion": [
+            0.09680983396500573,
+            -0.230832734014626,
+            0.023088242281186604,
+            0.9678899927281852
+          ],
+          "scale": [
+            6200,
+            3100,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 3",
+          "position": [
+            500,
+            3400,
+            -5520.000000000007
+          ],
+          "quaternion": [
+            0.2536375142383807,
+            -0.04305163404222963,
+            0.011300626047393137,
+            0.9662747352736728
+          ],
+          "scale": [
+            6500,
+            3250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 4",
+          "position": [
+            -5100,
+            2800,
+            -11519.999999999985
+          ],
+          "quaternion": [
+            0.09774919670879924,
+            0.20460317619053356,
+            -0.020539249768577992,
+            0.9737354743740592
+          ],
+          "scale": [
+            7000,
+            3500,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 5",
+          "position": [
+            2200,
+            1700,
+            -14619.999999999985
+          ],
+          "quaternion": [
+            0.049133193236621985,
+            -0.07412023024405927,
+            0.003656273510394753,
+            0.9960315017382521
+          ],
+          "scale": [
+            8000,
+            4000,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 6",
+          "position": [
+            8300,
+            2900,
+            -15719.999999999985
+          ],
+          "quaternion": [
+            0.07202301051956264,
+            -0.2388369107526245,
+            0.01776633057543328,
+            0.9682220682858486
+          ],
+          "scale": [
+            7100,
+            3550,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 7",
+          "position": [
+            -9600,
+            2900,
+            -20020.00000000003
+          ],
+          "quaternion": [
+            0.05813971711097867,
+            0.22055725459138595,
+            -0.013171514981479223,
+            0.9735506057388381
+          ],
+          "scale": [
+            8300,
+            4150,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 8",
+          "position": [
+            1200,
+            2450,
+            -22020.00000000003
+          ],
+          "quaternion": [
+            0.049945989718909976,
+            -0.02708548918041744,
+            0.0013550017036530705,
+            0.9983836629058186
+          ],
+          "scale": [
+            10500,
+            5250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 9",
+          "position": [
+            9200,
+            3500,
+            -23820.00000000003
+          ],
+          "quaternion": [
+            0.062389042290942616,
+            -0.18232698686923543,
+            0.011593298147915383,
+            0.9811880924161576
+          ],
+          "scale": [
+            9200,
+            4600,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        }
+      ],
+      "environmentPhase": [
+        {
+          "name": "Atmosphere dome",
+          "kind": "sky",
+          "time": 17.564500000000002
+        },
+        {
+          "name": "",
+          "kind": "ocean",
+          "time": 17.564500000000002,
+          "scroll": 400.0000000000001
+        }
+      ],
+      "lighting": {
+        "exposure": 0.92,
+        "fogDensity": 0.000068,
+        "lights": [
+          {
+            "type": "DirectionalLight",
+            "color": [
+              1,
+              0.7529422167708612,
+              0.5028864580233624
+            ],
+            "intensity": 2.3,
+            "position": [
+              -110,
+              269.72960991979846,
+              -150
+            ]
+          },
+          {
+            "type": "HemisphereLight",
+            "color": [
+              0.4452011945063733,
+              0.6724431569510133,
+              0.9046611743890203
+            ],
+            "intensity": 0.85,
+            "position": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "DirectionalLight",
+            "color": [
+              0.24620132669705552,
+              0.4735314961384573,
+              0.6307571363387763
+            ],
+            "intensity": 0.38,
+            "position": [
+              500,
+              200,
+              500
+            ]
+          }
+        ]
+      },
+      "sky": [
+        {
+          "name": "Atmosphere dome",
+          "revision": "cirrus-lut-v1",
+          "cirrusTextureSamples": 1,
+          "fragmentNoiseOctaves": 0,
+          "texture": {
+            "revision": "periodic-cirrus-lut-v1",
+            "size": 256,
+            "octaves": 5,
+            "generatedAtStartup": true
+          },
+          "wrapS": 1000,
+          "wrapT": 1000,
+          "minFilter": 1008,
+          "magFilter": 1006
+        }
+      ],
+      "renderProfile": {
+        "shadow": true,
+        "bloom": [
+          true
+        ]
+      },
+      "cloudReflection": {
+        "cloudEnvironmentBaked": true,
+        "cloudBanks": 9,
+        "reflectionStatic": true
+      },
+      "effectTime": 2.400000000000001
+    }
+  ],
+  "errors": [],
+  "condition": "fresh browser context without saved settings; default high remains after12 settled render frames;1440x900 deviceScale1 shadows+bloom on;user saved settings intentionally preserved",
+  "startup": {
+    "quality": "high",
+    "pixelRatio": 1,
+    "composerPixelRatio": 1,
+    "shadows": true,
+    "bloom": [
+      true
+    ],
+    "storedSettings": null
+  }
+}

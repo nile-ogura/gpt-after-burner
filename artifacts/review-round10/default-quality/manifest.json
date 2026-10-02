@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-10-01T23:54:16.876Z",
+  "sourceHashesMatch": true,
+  "status": "PASS fresh default high after12renderframes, shadow/bloomON, errors[]; stored manual settings preserved by source merge",
+  "startup": {
+    "quality": "high",
+    "pixelRatio": 1,
+    "composerPixelRatio": 1,
+    "shadows": true,
+    "bloom": [
+      true
+    ],
+    "storedSettings": null
+  },
+  "condition": "fresh browser context without saved settings; default high remains after12 settled render frames;1440x900 deviceScale1 shadows+bloom on;user saved settings intentionally preserved"
+}

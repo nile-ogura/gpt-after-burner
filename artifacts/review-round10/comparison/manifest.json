@@ -1,0 +1,47 @@
+{
+  "capturedAt": "2026-10-01T23:33:29.983Z",
+  "files": {
+    "comparison-local-straight.png": "e80a578e4b22f9c2007cddf0d49bfc1dfd66184d00fd8449c8a5c1e0dacde910",
+    "comparison-local.png": "900a1a0f722b84042c4d195cbdcb28b1f05900352d33439da23efe043943a87e",
+    "comparison-latest.png": "0fb1ef68d732efdb8307b147e0d56bb10f8c7398d7ae7c5c4ae74ea950fdbddb",
+    "comparison-masked.png": "294e0ed2a6dc88fbbe687869fb3014c56e0506e0ba20b253e09d998eaa776bae",
+    "comparison-latest-key.json": "a0c4157ac03778e1a1ae83bacd2e4e112e6e60367437bf0c98b8d6310e66df5b",
+    "comparison-scene-evidence.json": "f934ac37858adfe56ca7629aa4b1e1ea332add6f051e017e10613c617de830e8"
+  },
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "d06bdfd19f2128c7333860867cc200db10ede072fb3d9c1d3585f467fd9a24ad",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "4f087f52e201bcdc29f94ce0b1bbb894f0c488513f0c258edb8a74e71882875c",
+    "src/sky.js": "db9e7af56a73ad37539fcdbe5ec5b34cba2c02602492324c119c9f032c7166b7",
+    "src/styles.css": "49536bdb2b90cebaaaade1d14a0de33c0531e4e8e8d80d05fa9d169d95b4875b",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "1e92462b7f0ead0fd0f4a1bfdeb3f8ef816eca4b0747ee444f0a2d78b541d8ad"
+  },
+  "sourceHashesMatch": true,
+  "errors": [],
+  "condition": "actual local1280x720 staged QA combat pose, bank/HI and two real enemy-damage events, paused/frozen; separately preserved straight frame; no raster editing; not natural-play/motion proof",
+  "firstChoiceStatus": "All three reviewers sent preference B before key disclosure",
+  "limitations": [
+    "Familiarity with local style prevents full blind claim",
+    "Official native3840x2160/local1280x720, same displayarea",
+    "Local QA action pose uses actual damage-event route but staged enemy placement/damage; not natural gameplay or matched battle",
+    "Full straight frame retained separately; masked version same crop for both sources"
+  ],
+  "reviewerFirstChoices": {
+    "visual_critic": "B",
+    "aircraft": "B",
+    "flight_combat": "B"
+  },
+  "key": {
+    "A": "local",
+    "B": "official",
+    "method": "live official3840x2160 and actuallocal1280x720 browser capture, each displayed776x436.5, randomizedlabels; same50pxcrop top/bottom; localposeconditions in comparison-scene-evidence.json when available",
+    "reference": "https://enso-order.acecombat.jp/assets/img/gameplay/concept/img_3-2.webp",
+    "capturedAt": "2026-10-01T23:33:31.193Z"
+  },
+  "verdict": "Official B preferred by all three; local commercial AAA visual equivalence FAIL; low FPS excluded by user requirement"
+}

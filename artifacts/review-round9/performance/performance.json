@@ -1,0 +1,99 @@
+{
+  "capturedAt": "2026-10-01T21:32:21.855Z",
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "183d83ac8ca00957e802e6a5c8bd52b9928280b530833bf0fee3f29ce6569784",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "b83c76ebcd824ae95fb2646a6f569efa555c140ce70eded3b4a3afc8fd9b2704",
+    "src/styles.css": "6d5cf137e71be605d08ba7c60f50cf449b564d00d55ee9b260c351af7186faec",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "a592098eb005b6ae0774ce8be3ca2300d404e675c2eb2a4d3c2e814f1a44ac73"
+  },
+  "frames": [],
+  "errors": [],
+  "condition": "paused stage1 combat frame, 24 rendered frames after5 warmup; no FPS guarantee for motion",
+  "version": "current held-source candidate; source hashes and terrain revisions identify the tested version",
+  "viewport": "1440x900",
+  "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "measurements": [
+    {
+      "profile": "high",
+      "pixelRatio": 1,
+      "fps": 1.21,
+      "p95FrameMs": 900,
+      "drawCalls": 118,
+      "triangles": 226328,
+      "terrain": [
+        {
+          "lod": "high",
+          "index": 122112,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        },
+        {
+          "lod": "high",
+          "index": 122112,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        },
+        {
+          "lod": "high",
+          "index": 122112,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        },
+        {
+          "lod": "high",
+          "index": 122112,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        }
+      ]
+    },
+    {
+      "profile": "balanced",
+      "pixelRatio": 0.65,
+      "fps": 3.2,
+      "p95FrameMs": 350.1,
+      "drawCalls": 69,
+      "triangles": 77047,
+      "terrain": [
+        {
+          "lod": "low",
+          "index": 30528,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        },
+        {
+          "lod": "low",
+          "index": 30528,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        },
+        {
+          "lod": "low",
+          "index": 30528,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        },
+        {
+          "lod": "low",
+          "index": 30528,
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "assetStatus": "ready"
+        }
+      ]
+    }
+  ]
+}

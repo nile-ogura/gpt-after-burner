@@ -1,0 +1,40 @@
+{
+  "capturedAt": "2026-10-01T23:49:11.303Z",
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "b225372cb96998ccaed07ae26a5a9d0b0a793e454c8c8d8353c1c8ded156042d",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "4f087f52e201bcdc29f94ce0b1bbb894f0c488513f0c258edb8a74e71882875c",
+    "src/sky.js": "db9e7af56a73ad37539fcdbe5ec5b34cba2c02602492324c119c9f032c7166b7",
+    "src/styles.css": "49536bdb2b90cebaaaade1d14a0de33c0531e4e8e8d80d05fa9d169d95b4875b",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "e7cfe57e469699abc915b81e66b01d46f85526e915e650b8612681c2610f683f"
+  },
+  "sourceHashesMatch": true,
+  "runExitCode": 0,
+  "errors": [],
+  "files": {
+    "biome-stage11-rear-high.png": "82406c52436a78afc8dd19568ebdc84a622338025055593846c1b09685215ede",
+    "biome-stage11-rear-balanced.png": "f281d5d1cda21bdc195a40c121158fed0eca35d3a8f11a921ef658ab61bd21a8",
+    "biome-stage11-bank.png": "4a5549a633b34d76a0cb6c8b51041515c4fa21ba32e818e5be2a480f41954335",
+    "biome-forest-detail-high.png": "fde28065754acb18223656353f7da2a124881f9fc2e2acf22e625cc5769c56d6",
+    "biome-forest-detail-balanced.png": "0da3eb0ef1a5d8edda6b6835e5bca655bbdc5e773f846976d70c0a4939e82618",
+    "biome-evidence.json": "b1cc049af6c89312d2a9d193fa4dea07c3b4c2604b89772b896e01c24915a37b",
+    "forest-canopy-asset-v1.json": "3d90cca1bf19fe708adcbd4be171b2b906a0c0d4d47e3d8c4899c97699c8d1dc"
+  },
+  "visualStatus": "Near/middlecoverage, lessrows and lowretention partialPASS; fullwoodlandFAIL for smooth green pebble/waxy cabbage crowns with insufficient leaf/branch silhouette",
+  "structuralStatus": "PASS actual 2048 crowns retained in both profiles; two-variant union matches rooted stems; allfive actualbounds/contacts/native128leaf+farphoto readiness checked;529920high/516480low biome triangles",
+  "currentRequirements": {
+    "lowFPS": "Explicitly accepted by user; no new benchmark required"
+  },
+  "limitations": [
+    "actual numbered stages after8s pure simulation; labelled environment-only settle; paused/frozen rear high/.65 pairs, bank and outside-rail forest detail; actual indexed floor/tree bounds and visibility transitions checked; not natural transition, collision-physics or motion proof",
+    "No AAA guarantee; native leaf texture/source structure alone is not visual adoption",
+    "Moving selection/pop remains unverified",
+    "Detail pose depends on new first selected source; old/new details are contextual comparisons"
+  ],
+  "independentSourceAudit": "PASS variantunion/highlow/wrap/cachefresh/actualfloorcontacts/finitebounds/nativeleaf vsfarphoto; movingpop unverified"
+}

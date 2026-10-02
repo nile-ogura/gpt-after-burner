@@ -1,0 +1,69 @@
+{
+  "capturedAt": "2026-10-01T22:01:05.407Z",
+  "status": "portrait/radio,sky,canyon boundedPASS; forestv5coverage/irregularity/lowretentionpartialPASS/fullwoodlandFAIL; sourcecache/variant/contactboundedPASS; defaultqualityhighPASS; lowFPSaccepted; commercialAAAvisualFAIL",
+  "portraitFrames": 16,
+  "radioFrames": 10,
+  "errors": [],
+  "conditions": [
+    "390x844 and320x700 coarse-pointer rear, bank±.55, boost and edge labels; QA paused/frozen; projected solid triangles separate from radar/weapons/touch; transparent plumes judged visually; not natural transition, motion or input proof",
+    "390x844 and320x700 actual coarse-pointer browser; paused simulation, frozen presentation; QA heldHUD forces normal/intro/bonus/simultaneous-warning CSS priorities; not motion/input proof"
+  ],
+  "subsets": {
+    "portraitRadio": {
+      "frames": 26,
+      "directory": ".",
+      "verdict": "bounded static PASS"
+    },
+    "sky": {
+      "directory": "sky-attempt1",
+      "verdict": "four static frames bounded PASS; combined continuation exit1 retained"
+    },
+    "stage1Performance": {
+      "directory": "performance",
+      "verdict": "standalone completed; earlier-source stage1 SwiftShader1.20/3.21fps, no smooth-play PASS or speedup"
+    },
+    "firstBiomes": {
+      "directory": "biomes-attempt1",
+      "frames": 11,
+      "verdict": "canyon8/17 boundedPASS; forestFAIL"
+    },
+    "secondForest": {
+      "directory": "biomes-attempt2",
+      "frames": 5,
+      "verdict": "forestvolumeFAIL; structuralchecksPASS"
+    },
+    "thirdForest": {
+      "directory": "biomes-attempt3",
+      "frames": 5,
+      "verdict": "ordinaryraisedvolume/soilseparation/lowretentionpartialPASS; fullwoodlandFAIL; translation-onlycacheP2 known"
+    },
+    "fourthForest": {
+      "directory": "biomes-attempt4",
+      "frames": 5,
+      "verdict": "nearcoverage/rounding/lowretentionpartialPASS; fullwoodlandFAIL for globe-like photo crowns, rows/straightborders; specified camera/player cache boundedPASS, motionunverified"
+    },
+    "forestPerformanceV4": {
+      "directory": "performance-forest-v4",
+      "verdict": "complete raw24x2/fourheldsnapshots sourceauditedPASS; SwiftShader.97/2.30fps; lowFPSacceptedbyuser; notstage1matchedspeedup"
+    },
+    "comparison": {
+      "directory": "comparison",
+      "verdict": "All three pre-keyfirstchoices B; then key Bofficial/Alocal; localAAAvisualFAIL; not fullyblind; stagedQAaction and unequalcomposition"
+    },
+    "fifthForest": {
+      "directory": "biomes-attempt5",
+      "frames": 5,
+      "verdict": "density/lessrows/lowretentionpartialPASS; fullwoodlandleafshape/materialFAIL; sourceboundedPASS"
+    },
+    "defaultQuality": {
+      "directory": "default-quality",
+      "verdict": "freshinitialhigh/retainedDPR/shadow+bloomafter12renderframesPASS;errors[]"
+    }
+  },
+  "sourceScope": "Each subset has its own source hashes/snapshots. Initial source directory is the portrait/radio-era snapshot, not a claim that every later component used identical source.",
+  "currentRequirements": {
+    "lowFPS": "Explicitly accepted by user on this weak-GPU PC; no minimum frame-rate adoption gate",
+    "visualQuality": "Strict current visual gates preserved",
+    "rules": "Reference-video numbered23stage progression; no XP leveling"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-10-01T21:30:01.497Z",
+  "errors": [],
+  "checks": [
+    {
+      "name": "terrain-overview",
+      "pose": {
+        "position": {
+          "x": 2900,
+          "y": 1800,
+          "z": 1683.3333333333367
+        },
+        "target": {
+          "x": 5000,
+          "y": 900,
+          "z": -116.66666666666333
+        }
+      },
+      "maxGround": 1565.1986083984375,
+      "cameraAboveAllTerrain": true
+    },
+    {
+      "name": "terrain-coast-wide",
+      "pose": {
+        "position": {
+          "x": 1700,
+          "y": 2200,
+          "z": 3383.3333333333367
+        },
+        "target": {
+          "x": 5300,
+          "y": 650,
+          "z": -1316.6666666666633
+        }
+      },
+      "maxGround": 1565.1986083984375,
+      "cameraAboveAllTerrain": true
+    }
+  ],
+  "condition": "supplemental QA cameras outside playable rail, above all terrain vertices; same presentation clock/terrain world transforms as round8; high and DPR.65 matched within each pose; prior close camera is preserved separately; not motion/FPS proof",
+  "originalRound9Preserved": true
+}

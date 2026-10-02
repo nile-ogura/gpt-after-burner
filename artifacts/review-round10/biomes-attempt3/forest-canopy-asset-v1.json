@@ -1,0 +1,42 @@
+{
+  "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png",
+  "assetPath": "/home/ogura/repos/gpt-after-burner/public/assets/terrain/forest-canopy-albedo-v1.png",
+  "generatedBy": "image_gen",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "bb75b78643a99fa466c52dcdf7185f062d9b9f87d9b8ee56aaf005d0e723c3e9",
+  "copyUnmodified": true,
+  "editing": "none",
+  "tileIntentMeters": [
+    120,
+    120
+  ],
+  "pixelAudit": {
+    "meanRGB": [
+      43.34343497935792,
+      57.868320576706374,
+      43.32045906051194
+    ],
+    "oppositeXEdgeMeanDifference": 17.438862307283358,
+    "oppositeYEdgeMeanDifference": 17.01967038809144,
+    "sampledHorizontalNeighborMeanDifference": 11.50376621093486
+  },
+  "seamlessPixelEqualityEstablished": false,
+  "visualAdoption": "pending independent scene review",
+  "sceneAdoptionAttempts": [
+    {
+      "directory": "artifacts/review-round10/biomes-attempt1",
+      "forestVerdict": "FAIL: sparse faceted crowns; before new photo integration"
+    },
+    {
+      "directory": "artifacts/review-round10/biomes-attempt2",
+      "forestVerdict": "FAIL: photo-textured carpet lacks crown volume"
+    },
+    {
+      "candidate": "pooled-five-lobe-forest-v3",
+      "forestVerdict": "pending fixed capture/independent review"
+    }
+  ]
+}

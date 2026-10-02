@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-10-01T23:04:44.358Z",
+  "status": "capturecomplete; independentvisualadoptionpending; translation-onlyselectioncacheP2known",
+  "frames": 5,
+  "errors": [],
+  "condition": "actual numbered stages after8s pure simulation; labelled environment-only settle; paused/frozen rear high/.65 pairs, bank and outside-rail forest detail; actual indexed floor/tree bounds and visibility transitions checked; not natural transition, collision-physics or motion proof",
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "ab41a6509527e38f05cc916578fb88b6fdf2b70e41058d6eba0737c8b9292f78",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "6da2da6b33b552f25ff4ef6488c665ff87153db8a8c828c591ac0f69076ee2c6",
+    "src/sky.js": "db9e7af56a73ad37539fcdbe5ec5b34cba2c02602492324c119c9f032c7166b7",
+    "src/styles.css": "49536bdb2b90cebaaaade1d14a0de33c0531e4e8e8d80d05fa9d169d95b4875b",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "375a24cfd53585e2a491126538ae5c033d02169931b41ef10a0e67fda3a7a0ef"
+  },
+  "forestTextureSHA256": "bb75b78643a99fa466c52dcdf7185f062d9b9f87d9b8ee56aaf005d0e723c3e9",
+  "previousAttempts": "attempt1/2 forestFAIL retained; acceptedcanyonunchanged",
+  "cacheLimit": "sourceauditorreproduced768 cached IDs versus9 changed IDs from freshpool aftercameraX+1200 withsameorientation/pausedscroll; noordinarymotionfailclaimed; awaitingisolatedfix",
+  "detailPose": "camera85m,target50m; outsideflight rail"
+}

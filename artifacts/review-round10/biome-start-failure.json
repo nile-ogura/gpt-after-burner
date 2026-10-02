@@ -1,0 +1,7 @@
+{
+  "error": "page.goto net::ERR_CONNECTION_REFUSED http://localhost:5173/?qa",
+  "exitCode": 1,
+  "framesCaptured": 0,
+  "action": "local Vite restarted; retry with unchanged game source",
+  "cause": "server was not listening; reason for earlier stop not established"
+}

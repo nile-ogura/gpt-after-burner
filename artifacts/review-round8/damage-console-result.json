@@ -1,0 +1,48 @@
+{
+  "provenance": "Transcription of actual tools/capture.mjs --visual-matrix --damage exec stdout; preserved frames/evidence JSON remain unchanged",
+  "exitCode": 0,
+  "errors": [],
+  "state": {
+    "health": 84,
+    "missiles": 50,
+    "lives": 3,
+    "collision": true,
+    "events": [
+      {
+        "amount": 16,
+        "damage": 16,
+        "health": 84,
+        "source": "missile",
+        "owner": "player",
+        "x": 0,
+        "y": 230,
+        "z": 0,
+        "type": "damage",
+        "time": 0.008333333333333333
+      },
+      {
+        "id": 4,
+        "x": 0,
+        "y": 230,
+        "z": -10.949593996649096,
+        "source": "missile",
+        "owner": "enemy",
+        "scale": 0.65,
+        "type": "explosion",
+        "time": 0.008333333333333333
+      }
+    ]
+  },
+  "near": {
+    "fire": 15,
+    "smoke": 6,
+    "nearFire": 15,
+    "maxFireAlpha": 0.1472676545381546,
+    "maxSmokeAlpha": 0.013736453838646412
+  },
+  "limitations": [
+    "target/lock state changes in the real collision tick",
+    "camera shake intentionally excluded",
+    "does not prove every combat hit"
+  ]
+}

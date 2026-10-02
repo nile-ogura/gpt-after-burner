@@ -1,0 +1,6509 @@
+{
+  "capturedAt": "2026-10-01T22:38:57.168Z",
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "1c76d3b4e52268171a953d5ecec086c99016290175510fe74888efd396c489ef",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "26ab3cd753d46cf0eb63bf66985800eef8736c045568667ebcbc904e3aa310b9",
+    "src/sky.js": "db9e7af56a73ad37539fcdbe5ec5b34cba2c02602492324c119c9f032c7166b7",
+    "src/styles.css": "49536bdb2b90cebaaaade1d14a0de33c0531e4e8e8d80d05fa9d169d95b4875b",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "0dd8553e2415f9e11894fcc70c6eb8ed47fb4c7722fdf102368f72922407a1ce"
+  },
+  "frames": [
+    {
+      "name": "biome-stage11-rear-high",
+      "state": {
+        "status": "paused",
+        "score": 0,
+        "kills": 0,
+        "stage": 11,
+        "stageName": "RELOAD WEAPONS",
+        "biome": "forest",
+        "time": 8.000000000000187,
+        "missionTime": 8.000000000000187,
+        "stageTime": 8.000000000000187,
+        "health": 100,
+        "lives": 3,
+        "invulnerable": 52.000000000000455,
+        "missiles": 50,
+        "maxMissiles": 100,
+        "flares": 5,
+        "maxFlares": 5,
+        "lockId": 6,
+        "lockIds": [
+          6,
+          7,
+          5,
+          4
+        ],
+        "lockProgress": 1,
+        "locked": true,
+        "combo": 0,
+        "multiplier": 1,
+        "rank": "C",
+        "hit": 0,
+        "totalHit": 0,
+        "stageKind": "resupply",
+        "objective": "Rendezvous with the tanker, then continue the interception",
+        "shots": 0,
+        "hits": 0,
+        "accuracy": 0,
+        "waves": 2,
+        "escaped": 0,
+        "boostEnergy": 100,
+        "threat": 1,
+        "closestThreat": 1025.5224255915714,
+        "threatDirection": {
+          "x": -156.57623431379773,
+          "y": 1.4007923908642397
+        },
+        "warning": "MISSILE INBOUND",
+        "stageTransition": 0,
+        "stageDuration": 42,
+        "reloading": false,
+        "resupplyProgress": 1,
+        "autopilot": false,
+        "landingProgress": 0,
+        "rolling": false,
+        "rollProgress": 0,
+        "rollDirection": 0,
+        "rollCooldown": 0,
+        "lastStageSummary": null,
+        "difficulty": "standard",
+        "highScore": 0,
+        "resultReason": ""
+      },
+      "player": {
+        "x": 0,
+        "y": 230,
+        "z": 0,
+        "px": 0,
+        "py": 230,
+        "pz": 0,
+        "vx": 0,
+        "vy": 0,
+        "bank": 0,
+        "pitch": 0,
+        "rollAngle": 0,
+        "speed": 1180,
+        "throttle": 0.72
+      },
+      "enemies": [
+        {
+          "id": 4,
+          "x": -162.67987114084917,
+          "y": 233.81770255604738,
+          "z": -1060,
+          "px": -162.6138759531581,
+          "py": 233.8733012687336,
+          "pz": -1060,
+          "baseX": -143,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.0893977424417622,
+          "pitch": -0.015394907016891926,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-1",
+          "phase": 3.4489927827476192,
+          "attackTimer": 6.008333333333328,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 5,
+          "x": -76.91151863548714,
+          "y": 235.76468817888713,
+          "z": -920,
+          "px": -77.05572015724901,
+          "py": 235.67469918608225,
+          "pz": -920,
+          "baseX": -81,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.19651600152121676,
+          "pitch": 0.024997863656669995,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-2",
+          "phase": 5.670112055840707,
+          "attackTimer": 0.5500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 6,
+          "x": 0.890799965897358,
+          "y": 250.4219747300988,
+          "z": -920,
+          "px": 0.8276931385276356,
+          "py": 250.36794148972396,
+          "pz": -920,
+          "baseX": -19,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.08545264829453926,
+          "pitch": 0.01495921957064578,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-3",
+          "phase": 0.32933268415391964,
+          "attackTimer": 1.2000000000000037,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 7,
+          "x": 27.18934912959886,
+          "y": 237.8084959848702,
+          "z": -1060,
+          "px": 27.291685192174597,
+          "py": 237.88280750936843,
+          "pz": -1060,
+          "baseX": 43,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.13907109753566882,
+          "pitch": -0.02060678890691123,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-4",
+          "phase": 3.143474548481126,
+          "attackTimer": 1.8500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        }
+      ],
+      "presentationTime": 17.4466,
+      "fps": 1,
+      "pixelRatio": 1,
+      "drawCalls": 141,
+      "triangles": 255880,
+      "geometryBuffers": 76,
+      "textures": 45,
+      "particles": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "wakeSegments": 0,
+      "camera": {
+        "position": [
+          0,
+          235,
+          26
+        ],
+        "quaternion": [
+          0.012192402489871544,
+          0,
+          0,
+          0.9999256698982805
+        ],
+        "fov": 54
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "terrain": [
+        {
+          "name": "Coast terrain -1 -5800",
+          "position": [
+            -4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": -1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -5800",
+          "position": [
+            4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": 1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain -1 -23800",
+          "position": [
+            -4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": -1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -23800",
+          "position": [
+            4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": 1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        }
+      ],
+      "clouds": [
+        {
+          "name": "Cloud bank 1",
+          "position": [
+            -3400,
+            1800,
+            -5942.222222222435
+          ],
+          "quaternion": [
+            0.1021873882791919,
+            0.23731894914588753,
+            -0.02511194878701617,
+            0.9657157159749902
+          ],
+          "scale": [
+            4900,
+            2450,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 2",
+          "position": [
+            4400,
+            2200,
+            -8142.222222222032
+          ],
+          "quaternion": [
+            0.09680983396500573,
+            -0.230832734014626,
+            0.023088242281186604,
+            0.9678899927281852
+          ],
+          "scale": [
+            6200,
+            3100,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 3",
+          "position": [
+            500,
+            3400,
+            -5042.222222222435
+          ],
+          "quaternion": [
+            0.2536375142383807,
+            -0.04305163404222963,
+            0.011300626047393137,
+            0.9662747352736728
+          ],
+          "scale": [
+            6500,
+            3250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 4",
+          "position": [
+            -5100,
+            2800,
+            -11042.22222222199
+          ],
+          "quaternion": [
+            0.09774919670879924,
+            0.20460317619053356,
+            -0.020539249768577992,
+            0.9737354743740592
+          ],
+          "scale": [
+            7000,
+            3500,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 5",
+          "position": [
+            2200,
+            1700,
+            -14142.22222222199
+          ],
+          "quaternion": [
+            0.049133193236621985,
+            -0.07412023024405927,
+            0.003656273510394753,
+            0.9960315017382521
+          ],
+          "scale": [
+            8000,
+            4000,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 6",
+          "position": [
+            8300,
+            2900,
+            -15242.22222222199
+          ],
+          "quaternion": [
+            0.07202301051956264,
+            -0.2388369107526245,
+            0.01776633057543328,
+            0.9682220682858486
+          ],
+          "scale": [
+            7100,
+            3550,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 7",
+          "position": [
+            -9600,
+            2900,
+            -19542.22222222288
+          ],
+          "quaternion": [
+            0.05813971711097867,
+            0.22055725459138595,
+            -0.013171514981479223,
+            0.9735506057388381
+          ],
+          "scale": [
+            8300,
+            4150,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 8",
+          "position": [
+            1200,
+            2450,
+            -21542.22222222288
+          ],
+          "quaternion": [
+            0.049945989718909976,
+            -0.02708548918041744,
+            0.0013550017036530705,
+            0.9983836629058186
+          ],
+          "scale": [
+            10500,
+            5250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 9",
+          "position": [
+            9200,
+            3500,
+            -23342.22222222288
+          ],
+          "quaternion": [
+            0.062389042290942616,
+            -0.18232698686923543,
+            0.011593298147915383,
+            0.9811880924161576
+          ],
+          "scale": [
+            9200,
+            4600,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        }
+      ],
+      "environmentPhase": [
+        {
+          "name": "Atmosphere dome",
+          "kind": "sky",
+          "time": 17.4466
+        },
+        {
+          "name": "",
+          "kind": "ocean",
+          "time": 17.4466,
+          "scroll": 2788.8888888889146
+        }
+      ],
+      "lighting": {
+        "exposure": 0.92,
+        "fogDensity": 0.000068,
+        "lights": [
+          {
+            "type": "DirectionalLight",
+            "color": [
+              1,
+              0.7529422167708612,
+              0.5028864580233624
+            ],
+            "intensity": 2.3,
+            "position": [
+              -110,
+              270,
+              -150
+            ]
+          },
+          {
+            "type": "HemisphereLight",
+            "color": [
+              0.4452011945063733,
+              0.6724431569510133,
+              0.9046611743890203
+            ],
+            "intensity": 0.85,
+            "position": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "DirectionalLight",
+            "color": [
+              0.24620132669705552,
+              0.4735314961384573,
+              0.6307571363387763
+            ],
+            "intensity": 0.38,
+            "position": [
+              500,
+              200,
+              500
+            ]
+          }
+        ]
+      },
+      "sky": [
+        {
+          "name": "Atmosphere dome",
+          "revision": "cirrus-lut-v1",
+          "cirrusTextureSamples": 1,
+          "fragmentNoiseOctaves": 0,
+          "texture": {
+            "revision": "periodic-cirrus-lut-v1",
+            "size": 256,
+            "octaves": 5,
+            "generatedAtStartup": true
+          },
+          "wrapS": 1000,
+          "wrapT": 1000,
+          "minFilter": 1008,
+          "magFilter": 1006
+        }
+      ],
+      "renderProfile": {
+        "shadow": true,
+        "bloom": [
+          true
+        ]
+      },
+      "cloudReflection": {
+        "cloudEnvironmentBaked": true,
+        "cloudBanks": 9,
+        "reflectionStatic": true
+      },
+      "effectTime": 0.9999999999999999
+    },
+    {
+      "name": "biome-stage11-rear-balanced",
+      "state": {
+        "status": "paused",
+        "score": 0,
+        "kills": 0,
+        "stage": 11,
+        "stageName": "RELOAD WEAPONS",
+        "biome": "forest",
+        "time": 8.000000000000187,
+        "missionTime": 8.000000000000187,
+        "stageTime": 8.000000000000187,
+        "health": 100,
+        "lives": 3,
+        "invulnerable": 52.000000000000455,
+        "missiles": 50,
+        "maxMissiles": 100,
+        "flares": 5,
+        "maxFlares": 5,
+        "lockId": 6,
+        "lockIds": [
+          6,
+          7,
+          5,
+          4
+        ],
+        "lockProgress": 1,
+        "locked": true,
+        "combo": 0,
+        "multiplier": 1,
+        "rank": "C",
+        "hit": 0,
+        "totalHit": 0,
+        "stageKind": "resupply",
+        "objective": "Rendezvous with the tanker, then continue the interception",
+        "shots": 0,
+        "hits": 0,
+        "accuracy": 0,
+        "waves": 2,
+        "escaped": 0,
+        "boostEnergy": 100,
+        "threat": 1,
+        "closestThreat": 1025.5224255915714,
+        "threatDirection": {
+          "x": -156.57623431379773,
+          "y": 1.4007923908642397
+        },
+        "warning": "MISSILE INBOUND",
+        "stageTransition": 0,
+        "stageDuration": 42,
+        "reloading": false,
+        "resupplyProgress": 1,
+        "autopilot": false,
+        "landingProgress": 0,
+        "rolling": false,
+        "rollProgress": 0,
+        "rollDirection": 0,
+        "rollCooldown": 0,
+        "lastStageSummary": null,
+        "difficulty": "standard",
+        "highScore": 0,
+        "resultReason": ""
+      },
+      "player": {
+        "x": 0,
+        "y": 230,
+        "z": 0,
+        "px": 0,
+        "py": 230,
+        "pz": 0,
+        "vx": 0,
+        "vy": 0,
+        "bank": 0,
+        "pitch": 0,
+        "rollAngle": 0,
+        "speed": 1180,
+        "throttle": 0.72
+      },
+      "enemies": [
+        {
+          "id": 4,
+          "x": -162.67987114084917,
+          "y": 233.81770255604738,
+          "z": -1060,
+          "px": -162.6138759531581,
+          "py": 233.8733012687336,
+          "pz": -1060,
+          "baseX": -143,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.0893977424417622,
+          "pitch": -0.015394907016891926,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-1",
+          "phase": 3.4489927827476192,
+          "attackTimer": 6.008333333333328,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 5,
+          "x": -76.91151863548714,
+          "y": 235.76468817888713,
+          "z": -920,
+          "px": -77.05572015724901,
+          "py": 235.67469918608225,
+          "pz": -920,
+          "baseX": -81,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.19651600152121676,
+          "pitch": 0.024997863656669995,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-2",
+          "phase": 5.670112055840707,
+          "attackTimer": 0.5500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 6,
+          "x": 0.890799965897358,
+          "y": 250.4219747300988,
+          "z": -920,
+          "px": 0.8276931385276356,
+          "py": 250.36794148972396,
+          "pz": -920,
+          "baseX": -19,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.08545264829453926,
+          "pitch": 0.01495921957064578,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-3",
+          "phase": 0.32933268415391964,
+          "attackTimer": 1.2000000000000037,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 7,
+          "x": 27.18934912959886,
+          "y": 237.8084959848702,
+          "z": -1060,
+          "px": 27.291685192174597,
+          "py": 237.88280750936843,
+          "pz": -1060,
+          "baseX": 43,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.13907109753566882,
+          "pitch": -0.02060678890691123,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-4",
+          "phase": 3.143474548481126,
+          "attackTimer": 1.8500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        }
+      ],
+      "presentationTime": 17.4466,
+      "fps": 1,
+      "pixelRatio": 0.65,
+      "drawCalls": 92,
+      "triangles": 89959,
+      "geometryBuffers": 84,
+      "textures": 34,
+      "particles": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "wakeSegments": 0,
+      "camera": {
+        "position": [
+          0,
+          235,
+          26
+        ],
+        "quaternion": [
+          0.012192402489871544,
+          0,
+          0,
+          0.9999256698982805
+        ],
+        "fov": 54
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "terrain": [
+        {
+          "name": "Coast terrain -1 -5800",
+          "position": [
+            -4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": -1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -5800",
+          "position": [
+            4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": 1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain -1 -23800",
+          "position": [
+            -4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": -1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -23800",
+          "position": [
+            4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": 1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        }
+      ],
+      "clouds": [
+        {
+          "name": "Cloud bank 1",
+          "position": [
+            -3400,
+            1800,
+            -5942.222222222435
+          ],
+          "quaternion": [
+            0.1021873882791919,
+            0.23731894914588753,
+            -0.02511194878701617,
+            0.9657157159749902
+          ],
+          "scale": [
+            4900,
+            2450,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 2",
+          "position": [
+            4400,
+            2200,
+            -8142.222222222032
+          ],
+          "quaternion": [
+            0.09680983396500573,
+            -0.230832734014626,
+            0.023088242281186604,
+            0.9678899927281852
+          ],
+          "scale": [
+            6200,
+            3100,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 3",
+          "position": [
+            500,
+            3400,
+            -5042.222222222435
+          ],
+          "quaternion": [
+            0.2536375142383807,
+            -0.04305163404222963,
+            0.011300626047393137,
+            0.9662747352736728
+          ],
+          "scale": [
+            6500,
+            3250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 4",
+          "position": [
+            -5100,
+            2800,
+            -11042.22222222199
+          ],
+          "quaternion": [
+            0.09774919670879924,
+            0.20460317619053356,
+            -0.020539249768577992,
+            0.9737354743740592
+          ],
+          "scale": [
+            7000,
+            3500,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 5",
+          "position": [
+            2200,
+            1700,
+            -14142.22222222199
+          ],
+          "quaternion": [
+            0.049133193236621985,
+            -0.07412023024405927,
+            0.003656273510394753,
+            0.9960315017382521
+          ],
+          "scale": [
+            8000,
+            4000,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 6",
+          "position": [
+            8300,
+            2900,
+            -15242.22222222199
+          ],
+          "quaternion": [
+            0.07202301051956264,
+            -0.2388369107526245,
+            0.01776633057543328,
+            0.9682220682858486
+          ],
+          "scale": [
+            7100,
+            3550,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 7",
+          "position": [
+            -9600,
+            2900,
+            -19542.22222222288
+          ],
+          "quaternion": [
+            0.05813971711097867,
+            0.22055725459138595,
+            -0.013171514981479223,
+            0.9735506057388381
+          ],
+          "scale": [
+            8300,
+            4150,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 8",
+          "position": [
+            1200,
+            2450,
+            -21542.22222222288
+          ],
+          "quaternion": [
+            0.049945989718909976,
+            -0.02708548918041744,
+            0.0013550017036530705,
+            0.9983836629058186
+          ],
+          "scale": [
+            10500,
+            5250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 9",
+          "position": [
+            9200,
+            3500,
+            -23342.22222222288
+          ],
+          "quaternion": [
+            0.062389042290942616,
+            -0.18232698686923543,
+            0.011593298147915383,
+            0.9811880924161576
+          ],
+          "scale": [
+            9200,
+            4600,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        }
+      ],
+      "environmentPhase": [
+        {
+          "name": "Atmosphere dome",
+          "kind": "sky",
+          "time": 17.4466
+        },
+        {
+          "name": "",
+          "kind": "ocean",
+          "time": 17.4466,
+          "scroll": 2788.8888888889146
+        }
+      ],
+      "lighting": {
+        "exposure": 0.92,
+        "fogDensity": 0.000068,
+        "lights": [
+          {
+            "type": "DirectionalLight",
+            "color": [
+              1,
+              0.7529422167708612,
+              0.5028864580233624
+            ],
+            "intensity": 2.3,
+            "position": [
+              -110,
+              270,
+              -150
+            ]
+          },
+          {
+            "type": "HemisphereLight",
+            "color": [
+              0.4452011945063733,
+              0.6724431569510133,
+              0.9046611743890203
+            ],
+            "intensity": 0.85,
+            "position": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "DirectionalLight",
+            "color": [
+              0.24620132669705552,
+              0.4735314961384573,
+              0.6307571363387763
+            ],
+            "intensity": 0.38,
+            "position": [
+              500,
+              200,
+              500
+            ]
+          }
+        ]
+      },
+      "sky": [
+        {
+          "name": "Atmosphere dome",
+          "revision": "cirrus-lut-v1",
+          "cirrusTextureSamples": 1,
+          "fragmentNoiseOctaves": 0,
+          "texture": {
+            "revision": "periodic-cirrus-lut-v1",
+            "size": 256,
+            "octaves": 5,
+            "generatedAtStartup": true
+          },
+          "wrapS": 1000,
+          "wrapT": 1000,
+          "minFilter": 1008,
+          "magFilter": 1006
+        }
+      ],
+      "renderProfile": {
+        "shadow": false,
+        "bloom": [
+          false
+        ]
+      },
+      "cloudReflection": {
+        "cloudEnvironmentBaked": true,
+        "cloudBanks": 9,
+        "reflectionStatic": true
+      },
+      "effectTime": 0.9999999999999999
+    },
+    {
+      "name": "biome-stage11-bank",
+      "state": {
+        "status": "paused",
+        "score": 0,
+        "kills": 0,
+        "stage": 11,
+        "stageName": "RELOAD WEAPONS",
+        "biome": "forest",
+        "time": 8.000000000000187,
+        "missionTime": 8.000000000000187,
+        "stageTime": 8.000000000000187,
+        "health": 100,
+        "lives": 3,
+        "invulnerable": 52.000000000000455,
+        "missiles": 50,
+        "maxMissiles": 100,
+        "flares": 5,
+        "maxFlares": 5,
+        "lockId": 6,
+        "lockIds": [
+          6,
+          7,
+          5,
+          4
+        ],
+        "lockProgress": 1,
+        "locked": true,
+        "combo": 0,
+        "multiplier": 1,
+        "rank": "C",
+        "hit": 0,
+        "totalHit": 0,
+        "stageKind": "resupply",
+        "objective": "Rendezvous with the tanker, then continue the interception",
+        "shots": 0,
+        "hits": 0,
+        "accuracy": 0,
+        "waves": 2,
+        "escaped": 0,
+        "boostEnergy": 100,
+        "threat": 1,
+        "closestThreat": 1025.5224255915714,
+        "threatDirection": {
+          "x": -156.57623431379773,
+          "y": 1.4007923908642397
+        },
+        "warning": "MISSILE INBOUND",
+        "stageTransition": 0,
+        "stageDuration": 42,
+        "reloading": false,
+        "resupplyProgress": 1,
+        "autopilot": false,
+        "landingProgress": 0,
+        "rolling": false,
+        "rollProgress": 0,
+        "rollDirection": 0,
+        "rollCooldown": 0,
+        "lastStageSummary": null,
+        "difficulty": "standard",
+        "highScore": 0,
+        "resultReason": ""
+      },
+      "player": {
+        "x": 0,
+        "y": 230,
+        "z": 0,
+        "px": 0,
+        "py": 230,
+        "pz": 0,
+        "vx": 0,
+        "vy": 0,
+        "bank": -0.55,
+        "pitch": 0,
+        "rollAngle": 0,
+        "speed": 1180,
+        "throttle": 0.72
+      },
+      "enemies": [
+        {
+          "id": 4,
+          "x": -162.67987114084917,
+          "y": 233.81770255604738,
+          "z": -1060,
+          "px": -162.6138759531581,
+          "py": 233.8733012687336,
+          "pz": -1060,
+          "baseX": -143,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.0893977424417622,
+          "pitch": -0.015394907016891926,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-1",
+          "phase": 3.4489927827476192,
+          "attackTimer": 6.008333333333328,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 5,
+          "x": -76.91151863548714,
+          "y": 235.76468817888713,
+          "z": -920,
+          "px": -77.05572015724901,
+          "py": 235.67469918608225,
+          "pz": -920,
+          "baseX": -81,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.19651600152121676,
+          "pitch": 0.024997863656669995,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-2",
+          "phase": 5.670112055840707,
+          "attackTimer": 0.5500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 6,
+          "x": 0.890799965897358,
+          "y": 250.4219747300988,
+          "z": -920,
+          "px": 0.8276931385276356,
+          "py": 250.36794148972396,
+          "pz": -920,
+          "baseX": -19,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.08545264829453926,
+          "pitch": 0.01495921957064578,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-3",
+          "phase": 0.32933268415391964,
+          "attackTimer": 1.2000000000000037,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 7,
+          "x": 27.18934912959886,
+          "y": 237.8084959848702,
+          "z": -1060,
+          "px": 27.291685192174597,
+          "py": 237.88280750936843,
+          "pz": -1060,
+          "baseX": 43,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.13907109753566882,
+          "pitch": -0.02060678890691123,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-4",
+          "phase": 3.143474548481126,
+          "attackTimer": 1.8500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        }
+      ],
+      "presentationTime": 17.4466,
+      "fps": 2,
+      "pixelRatio": 1,
+      "drawCalls": 141,
+      "triangles": 255880,
+      "geometryBuffers": 84,
+      "textures": 45,
+      "particles": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "wakeSegments": 0,
+      "camera": {
+        "position": [
+          0,
+          235,
+          26
+        ],
+        "quaternion": [
+          0.012187792528214673,
+          -0.0003352488094243308,
+          0.027494490165059896,
+          0.9995475968317308
+        ],
+        "fov": 54
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "terrain": [
+        {
+          "name": "Coast terrain -1 -5800",
+          "position": [
+            -4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": -1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -5800",
+          "position": [
+            4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": 1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain -1 -23800",
+          "position": [
+            -4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": -1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -23800",
+          "position": [
+            4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": 1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        }
+      ],
+      "clouds": [
+        {
+          "name": "Cloud bank 1",
+          "position": [
+            -3400,
+            1800,
+            -5942.222222222435
+          ],
+          "quaternion": [
+            0.1021873882791919,
+            0.23731894914588753,
+            -0.02511194878701617,
+            0.9657157159749902
+          ],
+          "scale": [
+            4900,
+            2450,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 2",
+          "position": [
+            4400,
+            2200,
+            -8142.222222222032
+          ],
+          "quaternion": [
+            0.09680983396500573,
+            -0.230832734014626,
+            0.023088242281186604,
+            0.9678899927281852
+          ],
+          "scale": [
+            6200,
+            3100,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 3",
+          "position": [
+            500,
+            3400,
+            -5042.222222222435
+          ],
+          "quaternion": [
+            0.2536375142383807,
+            -0.04305163404222963,
+            0.011300626047393137,
+            0.9662747352736728
+          ],
+          "scale": [
+            6500,
+            3250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 4",
+          "position": [
+            -5100,
+            2800,
+            -11042.22222222199
+          ],
+          "quaternion": [
+            0.09774919670879924,
+            0.20460317619053356,
+            -0.020539249768577992,
+            0.9737354743740592
+          ],
+          "scale": [
+            7000,
+            3500,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 5",
+          "position": [
+            2200,
+            1700,
+            -14142.22222222199
+          ],
+          "quaternion": [
+            0.049133193236621985,
+            -0.07412023024405927,
+            0.003656273510394753,
+            0.9960315017382521
+          ],
+          "scale": [
+            8000,
+            4000,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 6",
+          "position": [
+            8300,
+            2900,
+            -15242.22222222199
+          ],
+          "quaternion": [
+            0.07202301051956264,
+            -0.2388369107526245,
+            0.01776633057543328,
+            0.9682220682858486
+          ],
+          "scale": [
+            7100,
+            3550,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 7",
+          "position": [
+            -9600,
+            2900,
+            -19542.22222222288
+          ],
+          "quaternion": [
+            0.05813971711097867,
+            0.22055725459138595,
+            -0.013171514981479223,
+            0.9735506057388381
+          ],
+          "scale": [
+            8300,
+            4150,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 8",
+          "position": [
+            1200,
+            2450,
+            -21542.22222222288
+          ],
+          "quaternion": [
+            0.049945989718909976,
+            -0.02708548918041744,
+            0.0013550017036530705,
+            0.9983836629058186
+          ],
+          "scale": [
+            10500,
+            5250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 9",
+          "position": [
+            9200,
+            3500,
+            -23342.22222222288
+          ],
+          "quaternion": [
+            0.062389042290942616,
+            -0.18232698686923543,
+            0.011593298147915383,
+            0.9811880924161576
+          ],
+          "scale": [
+            9200,
+            4600,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        }
+      ],
+      "environmentPhase": [
+        {
+          "name": "Atmosphere dome",
+          "kind": "sky",
+          "time": 17.4466
+        },
+        {
+          "name": "",
+          "kind": "ocean",
+          "time": 17.4466,
+          "scroll": 2788.8888888889146
+        }
+      ],
+      "lighting": {
+        "exposure": 0.92,
+        "fogDensity": 0.000068,
+        "lights": [
+          {
+            "type": "DirectionalLight",
+            "color": [
+              1,
+              0.7529422167708612,
+              0.5028864580233624
+            ],
+            "intensity": 2.3,
+            "position": [
+              -110,
+              270,
+              -150
+            ]
+          },
+          {
+            "type": "HemisphereLight",
+            "color": [
+              0.4452011945063733,
+              0.6724431569510133,
+              0.9046611743890203
+            ],
+            "intensity": 0.85,
+            "position": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "DirectionalLight",
+            "color": [
+              0.24620132669705552,
+              0.4735314961384573,
+              0.6307571363387763
+            ],
+            "intensity": 0.38,
+            "position": [
+              500,
+              200,
+              500
+            ]
+          }
+        ]
+      },
+      "sky": [
+        {
+          "name": "Atmosphere dome",
+          "revision": "cirrus-lut-v1",
+          "cirrusTextureSamples": 1,
+          "fragmentNoiseOctaves": 0,
+          "texture": {
+            "revision": "periodic-cirrus-lut-v1",
+            "size": 256,
+            "octaves": 5,
+            "generatedAtStartup": true
+          },
+          "wrapS": 1000,
+          "wrapT": 1000,
+          "minFilter": 1008,
+          "magFilter": 1006
+        }
+      ],
+      "renderProfile": {
+        "shadow": true,
+        "bloom": [
+          true
+        ]
+      },
+      "cloudReflection": {
+        "cloudEnvironmentBaked": true,
+        "cloudBanks": 9,
+        "reflectionStatic": true
+      },
+      "effectTime": 0.9999999999999999
+    },
+    {
+      "name": "biome-forest-detail-high",
+      "state": {
+        "status": "paused",
+        "score": 0,
+        "kills": 0,
+        "stage": 11,
+        "stageName": "RELOAD WEAPONS",
+        "biome": "forest",
+        "time": 8.000000000000187,
+        "missionTime": 8.000000000000187,
+        "stageTime": 8.000000000000187,
+        "health": 100,
+        "lives": 3,
+        "invulnerable": 52.000000000000455,
+        "missiles": 50,
+        "maxMissiles": 100,
+        "flares": 5,
+        "maxFlares": 5,
+        "lockId": 6,
+        "lockIds": [
+          6,
+          7,
+          5,
+          4
+        ],
+        "lockProgress": 1,
+        "locked": true,
+        "combo": 0,
+        "multiplier": 1,
+        "rank": "C",
+        "hit": 0,
+        "totalHit": 0,
+        "stageKind": "resupply",
+        "objective": "Rendezvous with the tanker, then continue the interception",
+        "shots": 0,
+        "hits": 0,
+        "accuracy": 0,
+        "waves": 2,
+        "escaped": 0,
+        "boostEnergy": 100,
+        "threat": 1,
+        "closestThreat": 1025.5224255915714,
+        "threatDirection": {
+          "x": -156.57623431379773,
+          "y": 1.4007923908642397
+        },
+        "warning": "MISSILE INBOUND",
+        "stageTransition": 0,
+        "stageDuration": 42,
+        "reloading": false,
+        "resupplyProgress": 1,
+        "autopilot": false,
+        "landingProgress": 0,
+        "rolling": false,
+        "rollProgress": 0,
+        "rollDirection": 0,
+        "rollCooldown": 0,
+        "lastStageSummary": null,
+        "difficulty": "standard",
+        "highScore": 0,
+        "resultReason": ""
+      },
+      "player": {
+        "x": 0,
+        "y": 230,
+        "z": 0,
+        "px": 0,
+        "py": 230,
+        "pz": 0,
+        "vx": 0,
+        "vy": 0,
+        "bank": -0.55,
+        "pitch": 0,
+        "rollAngle": 0,
+        "speed": 1180,
+        "throttle": 0.72
+      },
+      "enemies": [
+        {
+          "id": 4,
+          "x": -162.67987114084917,
+          "y": 233.81770255604738,
+          "z": -1060,
+          "px": -162.6138759531581,
+          "py": 233.8733012687336,
+          "pz": -1060,
+          "baseX": -143,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.0893977424417622,
+          "pitch": -0.015394907016891926,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-1",
+          "phase": 3.4489927827476192,
+          "attackTimer": 6.008333333333328,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 5,
+          "x": -76.91151863548714,
+          "y": 235.76468817888713,
+          "z": -920,
+          "px": -77.05572015724901,
+          "py": 235.67469918608225,
+          "pz": -920,
+          "baseX": -81,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.19651600152121676,
+          "pitch": 0.024997863656669995,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-2",
+          "phase": 5.670112055840707,
+          "attackTimer": 0.5500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 6,
+          "x": 0.890799965897358,
+          "y": 250.4219747300988,
+          "z": -920,
+          "px": 0.8276931385276356,
+          "py": 250.36794148972396,
+          "pz": -920,
+          "baseX": -19,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.08545264829453926,
+          "pitch": 0.01495921957064578,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-3",
+          "phase": 0.32933268415391964,
+          "attackTimer": 1.2000000000000037,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 7,
+          "x": 27.18934912959886,
+          "y": 237.8084959848702,
+          "z": -1060,
+          "px": 27.291685192174597,
+          "py": 237.88280750936843,
+          "pz": -1060,
+          "baseX": 43,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.13907109753566882,
+          "pitch": -0.02060678890691123,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-4",
+          "phase": 3.143474548481126,
+          "attackTimer": 1.8500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        }
+      ],
+      "presentationTime": 17.4466,
+      "fps": 1,
+      "pixelRatio": 1,
+      "drawCalls": 72,
+      "triangles": 214332,
+      "geometryBuffers": 84,
+      "textures": 45,
+      "particles": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "wakeSegments": 0,
+      "camera": {
+        "position": [
+          -1158.093994140625,
+          85,
+          3589.6437717013046
+        ],
+        "quaternion": [
+          -0.07195707403514491,
+          0.3235959565884745,
+          0.024689029778972957,
+          0.9431321689903613
+        ],
+        "fov": 45
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "terrain": [
+        {
+          "name": "Coast terrain -1 -5800",
+          "position": [
+            -4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": -1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -5800",
+          "position": [
+            4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": 1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain -1 -23800",
+          "position": [
+            -4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": -1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -23800",
+          "position": [
+            4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": 1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "high",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        }
+      ],
+      "clouds": [
+        {
+          "name": "Cloud bank 1",
+          "position": [
+            -3400,
+            1800,
+            -5942.222222222435
+          ],
+          "quaternion": [
+            0.1021873882791919,
+            0.23731894914588753,
+            -0.02511194878701617,
+            0.9657157159749902
+          ],
+          "scale": [
+            4900,
+            2450,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 2",
+          "position": [
+            4400,
+            2200,
+            -8142.222222222032
+          ],
+          "quaternion": [
+            0.09680983396500573,
+            -0.230832734014626,
+            0.023088242281186604,
+            0.9678899927281852
+          ],
+          "scale": [
+            6200,
+            3100,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 3",
+          "position": [
+            500,
+            3400,
+            -5042.222222222435
+          ],
+          "quaternion": [
+            0.2536375142383807,
+            -0.04305163404222963,
+            0.011300626047393137,
+            0.9662747352736728
+          ],
+          "scale": [
+            6500,
+            3250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 4",
+          "position": [
+            -5100,
+            2800,
+            -11042.22222222199
+          ],
+          "quaternion": [
+            0.09774919670879924,
+            0.20460317619053356,
+            -0.020539249768577992,
+            0.9737354743740592
+          ],
+          "scale": [
+            7000,
+            3500,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 5",
+          "position": [
+            2200,
+            1700,
+            -14142.22222222199
+          ],
+          "quaternion": [
+            0.049133193236621985,
+            -0.07412023024405927,
+            0.003656273510394753,
+            0.9960315017382521
+          ],
+          "scale": [
+            8000,
+            4000,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 6",
+          "position": [
+            8300,
+            2900,
+            -15242.22222222199
+          ],
+          "quaternion": [
+            0.07202301051956264,
+            -0.2388369107526245,
+            0.01776633057543328,
+            0.9682220682858486
+          ],
+          "scale": [
+            7100,
+            3550,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 7",
+          "position": [
+            -9600,
+            2900,
+            -19542.22222222288
+          ],
+          "quaternion": [
+            0.05813971711097867,
+            0.22055725459138595,
+            -0.013171514981479223,
+            0.9735506057388381
+          ],
+          "scale": [
+            8300,
+            4150,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 8",
+          "position": [
+            1200,
+            2450,
+            -21542.22222222288
+          ],
+          "quaternion": [
+            0.049945989718909976,
+            -0.02708548918041744,
+            0.0013550017036530705,
+            0.9983836629058186
+          ],
+          "scale": [
+            10500,
+            5250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 9",
+          "position": [
+            9200,
+            3500,
+            -23342.22222222288
+          ],
+          "quaternion": [
+            0.062389042290942616,
+            -0.18232698686923543,
+            0.011593298147915383,
+            0.9811880924161576
+          ],
+          "scale": [
+            9200,
+            4600,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        }
+      ],
+      "environmentPhase": [
+        {
+          "name": "Atmosphere dome",
+          "kind": "sky",
+          "time": 17.4466
+        },
+        {
+          "name": "",
+          "kind": "ocean",
+          "time": 17.4466,
+          "scroll": 2788.8888888889146
+        }
+      ],
+      "lighting": {
+        "exposure": 0.92,
+        "fogDensity": 0.000068,
+        "lights": [
+          {
+            "type": "DirectionalLight",
+            "color": [
+              1,
+              0.7529422167708612,
+              0.5028864580233624
+            ],
+            "intensity": 2.3,
+            "position": [
+              -110,
+              270,
+              -150
+            ]
+          },
+          {
+            "type": "HemisphereLight",
+            "color": [
+              0.4452011945063733,
+              0.6724431569510133,
+              0.9046611743890203
+            ],
+            "intensity": 0.85,
+            "position": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "DirectionalLight",
+            "color": [
+              0.24620132669705552,
+              0.4735314961384573,
+              0.6307571363387763
+            ],
+            "intensity": 0.38,
+            "position": [
+              500,
+              200,
+              500
+            ]
+          }
+        ]
+      },
+      "sky": [
+        {
+          "name": "Atmosphere dome",
+          "revision": "cirrus-lut-v1",
+          "cirrusTextureSamples": 1,
+          "fragmentNoiseOctaves": 0,
+          "texture": {
+            "revision": "periodic-cirrus-lut-v1",
+            "size": 256,
+            "octaves": 5,
+            "generatedAtStartup": true
+          },
+          "wrapS": 1000,
+          "wrapT": 1000,
+          "minFilter": 1008,
+          "magFilter": 1006
+        }
+      ],
+      "renderProfile": {
+        "shadow": true,
+        "bloom": [
+          true
+        ]
+      },
+      "cloudReflection": {
+        "cloudEnvironmentBaked": true,
+        "cloudBanks": 9,
+        "reflectionStatic": true
+      },
+      "effectTime": 0.9999999999999999
+    },
+    {
+      "name": "biome-forest-detail-balanced",
+      "state": {
+        "status": "paused",
+        "score": 0,
+        "kills": 0,
+        "stage": 11,
+        "stageName": "RELOAD WEAPONS",
+        "biome": "forest",
+        "time": 8.000000000000187,
+        "missionTime": 8.000000000000187,
+        "stageTime": 8.000000000000187,
+        "health": 100,
+        "lives": 3,
+        "invulnerable": 52.000000000000455,
+        "missiles": 50,
+        "maxMissiles": 100,
+        "flares": 5,
+        "maxFlares": 5,
+        "lockId": 6,
+        "lockIds": [
+          6,
+          7,
+          5,
+          4
+        ],
+        "lockProgress": 1,
+        "locked": true,
+        "combo": 0,
+        "multiplier": 1,
+        "rank": "C",
+        "hit": 0,
+        "totalHit": 0,
+        "stageKind": "resupply",
+        "objective": "Rendezvous with the tanker, then continue the interception",
+        "shots": 0,
+        "hits": 0,
+        "accuracy": 0,
+        "waves": 2,
+        "escaped": 0,
+        "boostEnergy": 100,
+        "threat": 1,
+        "closestThreat": 1025.5224255915714,
+        "threatDirection": {
+          "x": -156.57623431379773,
+          "y": 1.4007923908642397
+        },
+        "warning": "MISSILE INBOUND",
+        "stageTransition": 0,
+        "stageDuration": 42,
+        "reloading": false,
+        "resupplyProgress": 1,
+        "autopilot": false,
+        "landingProgress": 0,
+        "rolling": false,
+        "rollProgress": 0,
+        "rollDirection": 0,
+        "rollCooldown": 0,
+        "lastStageSummary": null,
+        "difficulty": "standard",
+        "highScore": 0,
+        "resultReason": ""
+      },
+      "player": {
+        "x": 0,
+        "y": 230,
+        "z": 0,
+        "px": 0,
+        "py": 230,
+        "pz": 0,
+        "vx": 0,
+        "vy": 0,
+        "bank": -0.55,
+        "pitch": 0,
+        "rollAngle": 0,
+        "speed": 1180,
+        "throttle": 0.72
+      },
+      "enemies": [
+        {
+          "id": 4,
+          "x": -162.67987114084917,
+          "y": 233.81770255604738,
+          "z": -1060,
+          "px": -162.6138759531581,
+          "py": 233.8733012687336,
+          "pz": -1060,
+          "baseX": -143,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.0893977424417622,
+          "pitch": -0.015394907016891926,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-1",
+          "phase": 3.4489927827476192,
+          "attackTimer": 6.008333333333328,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 5,
+          "x": -76.91151863548714,
+          "y": 235.76468817888713,
+          "z": -920,
+          "px": -77.05572015724901,
+          "py": 235.67469918608225,
+          "pz": -920,
+          "baseX": -81,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.19651600152121676,
+          "pitch": 0.024997863656669995,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-2",
+          "phase": 5.670112055840707,
+          "attackTimer": 0.5500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 6,
+          "x": 0.890799965897358,
+          "y": 250.4219747300988,
+          "z": -920,
+          "px": 0.8276931385276356,
+          "py": 250.36794148972396,
+          "pz": -920,
+          "baseX": -19,
+          "baseY": 236,
+          "age": 0.9999999999999989,
+          "bank": -0.08545264829453926,
+          "pitch": 0.01495921957064578,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-3",
+          "phase": 0.32933268415391964,
+          "attackTimer": 1.2000000000000037,
+          "attacker": true,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        },
+        {
+          "id": 7,
+          "x": 27.18934912959886,
+          "y": 237.8084959848702,
+          "z": -1060,
+          "px": 27.291685192174597,
+          "py": 237.88280750936843,
+          "pz": -1060,
+          "baseX": 43,
+          "baseY": 248,
+          "age": 0.9999999999999989,
+          "bank": 0.13907109753566882,
+          "pitch": -0.02060678890691123,
+          "health": 48,
+          "maxHealth": 48,
+          "radius": 17,
+          "boss": false,
+          "name": "BANDIT 2-4",
+          "phase": 3.143474548481126,
+          "attackTimer": 1.8500000000000036,
+          "attacker": false,
+          "dead": false,
+          "lockProgress": 1,
+          "locked": true
+        }
+      ],
+      "presentationTime": 17.4466,
+      "fps": 2,
+      "pixelRatio": 0.65,
+      "drawCalls": 23,
+      "triangles": 48411,
+      "geometryBuffers": 84,
+      "textures": 34,
+      "particles": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "wakeSegments": 0,
+      "camera": {
+        "position": [
+          -1158.093994140625,
+          85,
+          3589.6437717013046
+        ],
+        "quaternion": [
+          -0.07195707403514491,
+          0.3235959565884745,
+          0.024689029778972957,
+          0.9431321689903613
+        ],
+        "fov": 45
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "terrain": [
+        {
+          "name": "Coast terrain -1 -5800",
+          "position": [
+            -4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": -1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -5800",
+          "position": [
+            4700,
+            0,
+            -3011.1111111111954
+          ],
+          "side": 1,
+          "sourceOffset": -5800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain -1 -23800",
+          "position": [
+            -4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": -1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        },
+        {
+          "name": "Coast terrain 1 -23800",
+          "position": [
+            4700,
+            0,
+            -21011.11111111084
+          ],
+          "side": 1,
+          "sourceOffset": -23800,
+          "width": 6400,
+          "depth": 18000,
+          "columns": 97,
+          "rows": 213,
+          "highIndexCount": 122112,
+          "lowIndexCount": 30528,
+          "lod": "low",
+          "materialRevision": "geology-contrast-v2",
+          "macroRevision": "eroded-coast-v3",
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          },
+          "shaderKey": "coastal-geology-contrast-v2"
+        }
+      ],
+      "clouds": [
+        {
+          "name": "Cloud bank 1",
+          "position": [
+            -3400,
+            1800,
+            -5942.222222222435
+          ],
+          "quaternion": [
+            0.1021873882791919,
+            0.23731894914588753,
+            -0.02511194878701617,
+            0.9657157159749902
+          ],
+          "scale": [
+            4900,
+            2450,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 2",
+          "position": [
+            4400,
+            2200,
+            -8142.222222222032
+          ],
+          "quaternion": [
+            0.09680983396500573,
+            -0.230832734014626,
+            0.023088242281186604,
+            0.9678899927281852
+          ],
+          "scale": [
+            6200,
+            3100,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 3",
+          "position": [
+            500,
+            3400,
+            -5042.222222222435
+          ],
+          "quaternion": [
+            0.2536375142383807,
+            -0.04305163404222963,
+            0.011300626047393137,
+            0.9662747352736728
+          ],
+          "scale": [
+            6500,
+            3250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 4",
+          "position": [
+            -5100,
+            2800,
+            -11042.22222222199
+          ],
+          "quaternion": [
+            0.09774919670879924,
+            0.20460317619053356,
+            -0.020539249768577992,
+            0.9737354743740592
+          ],
+          "scale": [
+            7000,
+            3500,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 5",
+          "position": [
+            2200,
+            1700,
+            -14142.22222222199
+          ],
+          "quaternion": [
+            0.049133193236621985,
+            -0.07412023024405927,
+            0.003656273510394753,
+            0.9960315017382521
+          ],
+          "scale": [
+            8000,
+            4000,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 6",
+          "position": [
+            8300,
+            2900,
+            -15242.22222222199
+          ],
+          "quaternion": [
+            0.07202301051956264,
+            -0.2388369107526245,
+            0.01776633057543328,
+            0.9682220682858486
+          ],
+          "scale": [
+            7100,
+            3550,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 7",
+          "position": [
+            -9600,
+            2900,
+            -19542.22222222288
+          ],
+          "quaternion": [
+            0.05813971711097867,
+            0.22055725459138595,
+            -0.013171514981479223,
+            0.9735506057388381
+          ],
+          "scale": [
+            8300,
+            4150,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 8",
+          "position": [
+            1200,
+            2450,
+            -21542.22222222288
+          ],
+          "quaternion": [
+            0.049945989718909976,
+            -0.02708548918041744,
+            0.0013550017036530705,
+            0.9983836629058186
+          ],
+          "scale": [
+            10500,
+            5250,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        },
+        {
+          "name": "Cloud bank 9",
+          "position": [
+            9200,
+            3500,
+            -23342.22222222288
+          ],
+          "quaternion": [
+            0.062389042290942616,
+            -0.18232698686923543,
+            0.011593298147915383,
+            0.9811880924161576
+          ],
+          "scale": [
+            9200,
+            4600,
+            1
+          ],
+          "opacity": 0.98,
+          "ready": true
+        }
+      ],
+      "environmentPhase": [
+        {
+          "name": "Atmosphere dome",
+          "kind": "sky",
+          "time": 17.4466
+        },
+        {
+          "name": "",
+          "kind": "ocean",
+          "time": 17.4466,
+          "scroll": 2788.8888888889146
+        }
+      ],
+      "lighting": {
+        "exposure": 0.92,
+        "fogDensity": 0.000068,
+        "lights": [
+          {
+            "type": "DirectionalLight",
+            "color": [
+              1,
+              0.7529422167708612,
+              0.5028864580233624
+            ],
+            "intensity": 2.3,
+            "position": [
+              -110,
+              270,
+              -150
+            ]
+          },
+          {
+            "type": "HemisphereLight",
+            "color": [
+              0.4452011945063733,
+              0.6724431569510133,
+              0.9046611743890203
+            ],
+            "intensity": 0.85,
+            "position": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "DirectionalLight",
+            "color": [
+              0.24620132669705552,
+              0.4735314961384573,
+              0.6307571363387763
+            ],
+            "intensity": 0.38,
+            "position": [
+              500,
+              200,
+              500
+            ]
+          }
+        ]
+      },
+      "sky": [
+        {
+          "name": "Atmosphere dome",
+          "revision": "cirrus-lut-v1",
+          "cirrusTextureSamples": 1,
+          "fragmentNoiseOctaves": 0,
+          "texture": {
+            "revision": "periodic-cirrus-lut-v1",
+            "size": 256,
+            "octaves": 5,
+            "generatedAtStartup": true
+          },
+          "wrapS": 1000,
+          "wrapT": 1000,
+          "minFilter": 1008,
+          "magFilter": 1006
+        }
+      ],
+      "renderProfile": {
+        "shadow": false,
+        "bloom": [
+          false
+        ]
+      },
+      "cloudReflection": {
+        "cloudEnvironmentBaked": true,
+        "cloudBanks": 9,
+        "reflectionStatic": true
+      },
+      "effectTime": 0.9999999999999999
+    }
+  ],
+  "errors": [],
+  "condition": "actual numbered stages after8s pure simulation; labelled environment-only settle; paused/frozen rear high/.65 pairs, bank and outside-rail forest detail; actual indexed floor/tree bounds and visibility transitions checked; not natural transition, collision-physics or motion proof",
+  "geometry": [
+    {
+      "name": "biome-stage11-rear-high",
+      "stage": 11,
+      "biome": "forest",
+      "playerAltitude": 230,
+      "oceanVisible": false,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "high",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 6144,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "high",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 6144,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.967566737552474,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001131610323668042,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 62.96756553649902,
+          "minimumAbsX": 442.33470727218946,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.967566737552474,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001131610323668042,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 41.61620983835405,
+          "minimumAbsX": 456.93811499190014,
+          "maxFootError": 0.0000014289582352944308,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.241735912014036,
+          "minAbsX": 504.2290021433536,
+          "footError": 0.0000013132307987717695,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 62.24173450469971,
+          "minimumAbsX": 505.124228258318,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.241735912014036,
+          "minAbsX": 504.2290021433536,
+          "footError": 0.0000013132307987717695,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 41.10923278851601,
+          "minimumAbsX": 518.3284999116302,
+          "maxFootError": 0.000001541229668333699,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "high",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 20736,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "high",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 20736,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 24320,
+      "visibleBiomeMeshes": 8
+    },
+    {
+      "name": "biome-stage11-rear-balanced",
+      "stage": 11,
+      "biome": "forest",
+      "playerAltitude": 230,
+      "oceanVisible": false,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 61.29722499847412,
+          "minimumAbsX": 510.9310489055504,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 40.51512063469863,
+          "minimumAbsX": 520.4492641281757,
+          "maxFootError": 0.0000016762080417009884,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 62.33420467376709,
+          "minimumAbsX": 533.4814081919865,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 41.08078013843601,
+          "minimumAbsX": 546.5429349263638,
+          "maxFootError": 9.997185834720312e-7,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 7680,
+      "visibleBiomeMeshes": 8
+    },
+    {
+      "name": "biome-stage11-bank",
+      "stage": 11,
+      "biome": "forest",
+      "playerAltitude": 230,
+      "oceanVisible": false,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "high",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 6144,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "high",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 6144,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.967566737552474,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001131610323668042,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 62.96756553649902,
+          "minimumAbsX": 442.33470727218946,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.967566737552474,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001131610323668042,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 41.61620983835405,
+          "minimumAbsX": 456.93811499190014,
+          "maxFootError": 0.0000014289582352944308,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.241735912014036,
+          "minAbsX": 504.2290021433536,
+          "footError": 0.0000013132307987717695,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 62.24173450469971,
+          "minimumAbsX": 505.124228258318,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.241735912014036,
+          "minAbsX": 504.2290021433536,
+          "footError": 0.0000013132307987717695,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 41.10923278851601,
+          "minimumAbsX": 518.3284999116302,
+          "maxFootError": 0.000001541229668333699,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "high",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 20736,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "high",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 20736,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 24320,
+      "visibleBiomeMeshes": 8
+    },
+    {
+      "name": "biome-forest-detail-high",
+      "stage": 11,
+      "biome": "forest",
+      "playerAltitude": 230,
+      "oceanVisible": false,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "high",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 6144,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "high",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 6144,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.967566737552474,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001131610323668042,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 62.96756553649902,
+          "minimumAbsX": 442.33470727218946,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.967566737552474,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001131610323668042,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 41.61620983835405,
+          "minimumAbsX": 456.93811499190014,
+          "maxFootError": 0.0000014289582352944308,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.241735912014036,
+          "minAbsX": 504.2290021433536,
+          "footError": 0.0000013132307987717695,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 62.24173450469971,
+          "minimumAbsX": 505.124228258318,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 64,
+          "lod": "high",
+          "maxTop": 62.241735912014036,
+          "minAbsX": 504.2290021433536,
+          "footError": 0.0000013132307987717695,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 64,
+          "nonFinite": 0,
+          "maxActualTop": 41.10923278851601,
+          "minimumAbsX": 518.3284999116302,
+          "maxFootError": 0.000001541229668333699,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "high",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 20736,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "high",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 20736,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 24320,
+      "visibleBiomeMeshes": 8
+    },
+    {
+      "name": "biome-forest-detail-balanced",
+      "stage": 11,
+      "biome": "forest",
+      "playerAltitude": 230,
+      "oceanVisible": false,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "forest",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": true,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 61.29722499847412,
+          "minimumAbsX": 510.9310489055504,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": true,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 40.51512063469863,
+          "minimumAbsX": 520.4492641281757,
+          "maxFootError": 0.0000016762080417009884,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 62.33420467376709,
+          "minimumAbsX": 533.4814081919865,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": true,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 41.08078013843601,
+          "minimumAbsX": 546.5429349263638,
+          "maxFootError": 9.997185834720312e-7,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": true,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": true,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 7680,
+      "visibleBiomeMeshes": 8
+    }
+  ],
+  "transitionChecks": [
+    {
+      "stage": 1,
+      "biome": "coast",
+      "playerAltitude": 230,
+      "oceanVisible": true,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 61.29722499847412,
+          "minimumAbsX": 510.9310489055504,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 40.51512063469863,
+          "minimumAbsX": 520.4492641281757,
+          "maxFootError": 0.0000016762080417009884,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 62.33420467376709,
+          "minimumAbsX": 533.4814081919865,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 41.08078013843601,
+          "minimumAbsX": 546.5429349263638,
+          "maxFootError": 9.997185834720312e-7,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 0,
+      "visibleBiomeMeshes": 0
+    },
+    {
+      "stage": 5,
+      "biome": "coast",
+      "playerAltitude": 230,
+      "oceanVisible": true,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 61.29722499847412,
+          "minimumAbsX": 510.9310489055504,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 40.51512063469863,
+          "minimumAbsX": 520.4492641281757,
+          "maxFootError": 0.0000016762080417009884,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 62.33420467376709,
+          "minimumAbsX": 533.4814081919865,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 41.08078013843601,
+          "minimumAbsX": 546.5429349263638,
+          "maxFootError": 9.997185834720312e-7,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 0,
+      "visibleBiomeMeshes": 0
+    },
+    {
+      "stage": 13,
+      "biome": "coast",
+      "playerAltitude": 230,
+      "oceanVisible": true,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 61.29722499847412,
+          "minimumAbsX": 510.9310489055504,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 40.51512063469863,
+          "minimumAbsX": 520.4492641281757,
+          "maxFootError": 0.0000016762080417009884,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 62.33420467376709,
+          "minimumAbsX": 533.4814081919865,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 41.08078013843601,
+          "minimumAbsX": 546.5429349263638,
+          "maxFootError": 9.997185834720312e-7,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 0,
+      "visibleBiomeMeshes": 0
+    },
+    {
+      "stage": 23,
+      "biome": "coast",
+      "playerAltitude": 230,
+      "oceanVisible": true,
+      "grounds": [
+        {
+          "name": "Biome ground -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 5.554742336273193,
+          "maximumHeight": 13.646561622619629,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -12011.111111111195,
+            "zMax": 5988.888888888805
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        },
+        {
+          "name": "Biome ground -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "width": 48000,
+          "depth": 18000,
+          "columns": 17,
+          "rows": 65,
+          "period": 36000,
+          "highIndexCount": 6144,
+          "lowIndexCount": 1536,
+          "lod": "low",
+          "biome": "canyon",
+          "heightMapping": "triangle-xz-u+v",
+          "minimumHeight": 4.498798370361328,
+          "maximumHeight": 15.487936019897461,
+          "horizontalCoverage": [
+            -24000,
+            24000
+          ],
+          "worldCoverage": {
+            "xMin": -24000,
+            "xMax": 24000,
+            "zMin": -30011.11111111084,
+            "zMax": -12011.11111111084
+          },
+          "dryFloor": true,
+          "active": false,
+          "actualIndex": 1536,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "map": {
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "ready": true,
+            "assetStatus": "ready",
+            "fallback": false,
+            "sourceUrl": "/assets/terrain/coastal-rock-albedo-v1.png",
+            "assetPath": "public/assets/terrain/coastal-rock-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f828-c984-7da3-a8bc-6664390a77f3/exec-fc179bf0-c088-475f-91ba-88fd1691965d.png",
+            "generatedBy": "image_gen"
+          }
+        }
+      ],
+      "forests": [
+        {
+          "name": "Forest canopy -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 61.29722499847412,
+          "minimumAbsX": 510.9310489055504,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -5800",
+          "visible": false,
+          "sourceOffset": -5800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.84263561328658,
+          "minAbsX": 441.26244818736944,
+          "footError": 0.000001428700860728327,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 40.51512063469863,
+          "minimumAbsX": 520.4492641281757,
+          "maxFootError": 0.0000016762080417009884,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest canopy -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "canopy",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 62.33420467376709,
+          "minimumAbsX": 533.4814081919865,
+          "maxFootError": 0,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        },
+        {
+          "name": "Forest trunks -23800",
+          "visible": false,
+          "sourceOffset": -23800,
+          "highCount": 64,
+          "lowCount": 32,
+          "count": 32,
+          "lod": "low",
+          "maxTop": 62.39022195240102,
+          "minAbsX": 504.2290021433536,
+          "footError": 9.574944463963675e-7,
+          "groundingTolerance": 0.00001,
+          "grounded": true,
+          "part": "trunks",
+          "actualCount": 32,
+          "nonFinite": 0,
+          "maxActualTop": 41.08078013843601,
+          "minimumAbsX": 546.5429349263638,
+          "maxFootError": 9.997185834720312e-7,
+          "independentCheck": "transformed geometry bounds and actual current indexed floor triangles"
+        }
+      ],
+      "joins": [
+        {
+          "a": "Biome ground -5800",
+          "b": "Biome ground -23800",
+          "heightError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10
+        }
+      ],
+      "canopies": [
+        {
+          "name": "Forest mass -5800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -3011.1111111111954
+          ],
+          "sourceOffset": -5800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 55.89442825317383,
+          "minAbsX": 367.5308532714844,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 55.89442825317383,
+          "actualMinAbsX": 367.5308532714844,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.05758345309215e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        },
+        {
+          "name": "Forest mass -23800",
+          "visible": false,
+          "position": [
+            0,
+            0,
+            -21011.11111111084
+          ],
+          "sourceOffset": -23800,
+          "period": 36000,
+          "strips": 2,
+          "sideOrder": [
+            -1,
+            1
+          ],
+          "columns": 13,
+          "rows": 145,
+          "rowStep": 125,
+          "stripVertexCount": 1885,
+          "highIndexCount": 20736,
+          "lowIndexCount": 5184,
+          "lod": "low",
+          "minHeight": 1,
+          "maxHeight": 56.806583404541016,
+          "minAbsX": 362.0787658691406,
+          "buriedEdgeHeight": 1,
+          "uvConvention": "worldX/6400,worldZ/18000; metric repeat 120m",
+          "wrapUvVDelta": 2,
+          "wrapTextureRepeats": 300,
+          "wrapUvTolerance": 1e-7,
+          "geometryRevision": "periodic-forest-mass-v2",
+          "photoSamples": 1,
+          "fragmentLoops": 0,
+          "textureReady": true,
+          "ready": true,
+          "fallback": false,
+          "assetStatus": "ready",
+          "active": false,
+          "vertices": 3770,
+          "actualIndex": 5184,
+          "highActualIndex": 20736,
+          "lowActualIndex": 5184,
+          "sharedAttributes": true,
+          "nonFinite": 0,
+          "actualMinHeight": 1,
+          "actualMaxHeight": 56.806583404541016,
+          "actualMinAbsX": 362.0787658691406,
+          "crossCorridorTriangles": 0,
+          "maxNormalLengthError": 3.0554545338290495e-8,
+          "map": {
+            "ready": true,
+            "fallback": false,
+            "assetStatus": "ready",
+            "rockAlbedo": {
+              "width": 1254,
+              "height": 1254,
+              "aspect": 1,
+              "tileWidth": 120,
+              "tileDepth": 120
+            },
+            "sourceUrl": "/assets/terrain/forest-canopy-albedo-v1.png",
+            "generatedBy": "image_gen",
+            "assetPath": "public/assets/terrain/forest-canopy-albedo-v1.png",
+            "originalPath": "/home/ogura/.codex/generated_images/01a0f826-6479-73b2-b0bc-24d13f7c7747/exec-adbb44c2-ee83-4b44-871f-7267adeb86e4.png"
+          },
+          "repeat": [
+            53.333333333333336,
+            150
+          ]
+        }
+      ],
+      "canopyJoins": [
+        {
+          "a": "Forest mass -5800",
+          "b": "Forest mass -23800",
+          "samples": 26,
+          "heightError": 0,
+          "xError": 0,
+          "normalError": 0,
+          "worldEdgeZError": 3.54702933691442e-10,
+          "textureRepeatError": 0
+        }
+      ],
+      "visibleBiomeTriangles": 0,
+      "visibleBiomeMeshes": 0
+    }
+  ]
+}

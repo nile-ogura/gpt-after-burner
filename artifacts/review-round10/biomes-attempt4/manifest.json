@@ -1,0 +1,36 @@
+{
+  "capturedAt": "2026-10-01T23:25:38.020Z",
+  "sourceHashes": {
+    "src/aircraft.js": "5011af238338f55e38a5b7e5dd24097a1165add9a8ef3be4c44db67e9ab8aa35",
+    "src/audio.js": "6506723e33102ff3c1422abb713f775afbe62bf111219e1b15ed1c06c697682f",
+    "src/effects.js": "9e4db1dcd3905633648ec00eb454903c828c855f880807aa66a4f08baad52530",
+    "src/enemies.js": "ddc1ebc00f41a1c420b0a9753d09971ff5c2cd3377ad9534db6d734478dd8b51",
+    "src/environment.js": "d06bdfd19f2128c7333860867cc200db10ede072fb3d9c1d3585f467fd9a24ad",
+    "src/gameplay.js": "20108e76ca3016eef6dc4942486459af11ee210e45e84b1961d847df949b64f8",
+    "src/main.js": "4f087f52e201bcdc29f94ce0b1bbb894f0c488513f0c258edb8a74e71882875c",
+    "src/sky.js": "db9e7af56a73ad37539fcdbe5ec5b34cba2c02602492324c119c9f032c7166b7",
+    "src/styles.css": "49536bdb2b90cebaaaade1d14a0de33c0531e4e8e8d80d05fa9d169d95b4875b",
+    "src/support.js": "e3bfc958d9374de27dc5b183cca5f471ccb9efa712b857d52e2cd05426695f2c",
+    "tools/capture.mjs": "1e92462b7f0ead0fd0f4a1bfdeb3f8ef816eca4b0747ee444f0a2d78b541d8ad"
+  },
+  "sourceHashesMatch": true,
+  "runExitCode": 0,
+  "errors": [],
+  "files": {
+    "biome-stage11-rear-high.png": "c7e2744059330ffe566672c1a652f8282e914fcb0ec420192d33462e10f19a3e",
+    "biome-stage11-rear-balanced.png": "718ae448e8fc2024d811985548fc7a9e1636a52da1d64e7a3931cf1b647a4b2c",
+    "biome-stage11-bank.png": "4df380b6fc2ce32b77561d0ce16e5bc99bba85e098feabfdba6cd98dab6ba85f",
+    "biome-forest-detail-high.png": "53d48f7e2c25b0641da8d673122360d87d4296d49dabe7f9a7bfe6afe7f1b09b",
+    "biome-forest-detail-balanced.png": "21996d8ac16c627ac2ca6199192888155bbbda09dfc97578233c9cc7878c27bc",
+    "biome-evidence.json": "ca0e7034c1b919d5d640dce64797aeddcf45c9100461264d3ad4ee5dd6172701",
+    "forest-canopy-asset-v1.json": "b764be0dc91d06df9b780019495631caa27844c152d5f76528a03deeb69cbbdb"
+  },
+  "visualStatus": "pending independent fixed-image review",
+  "structuralStatus": "PASS capture checks; 768 crowns retained in both profiles; 209920 high and 196480 balanced biome triangles",
+  "cacheAudit": "Independent bounded camera/player translation cases match fresh pool; motion popping is unverified",
+  "limitations": [
+    "actual numbered stages after8s pure simulation; labelled environment-only settle; paused/frozen rear high/.65 pairs, bank and outside-rail forest detail; actual indexed floor/tree bounds and visibility transitions checked; not natural transition, collision-physics or motion proof",
+    "SwiftShader capture does not establish hardware frame rate",
+    "No AAA quality or natural motion guarantee"
+  ]
+}

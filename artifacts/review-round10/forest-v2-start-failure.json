@@ -1,0 +1,10 @@
+{
+  "capturedAt": "2026-10-01T22:36:51.149991+00:00",
+  "command": "tools/capture.mjs --forest-only",
+  "exitCode": 1,
+  "framesCaptured": 0,
+  "failure": "page.goto networkidle Timeout30000ms exceeded before QA initialization",
+  "cause": "not established",
+  "environmentSHA256": "1c76d3b4e52268171a953d5ecec086c99016290175510fe74888efd396c489ef",
+  "next": "DOMContentLoaded navigation followed by explicit QA/asset readiness and settled frames; no source changes"
+}

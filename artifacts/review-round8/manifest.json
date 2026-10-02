@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-10-01T20:42:10Z",
+  "candidate": "aircraft-v7 / geology-contrast-v2 / fine ocean / near-player impact limits",
+  "conditions": "completed visual-matrix --damage; paused simulation; frozen presentation; matched cameras; ready photo assets; zero browser/shader errors",
+  "knownNewIssue": "uninitialized enemy.locked passed to DOM toggle flips class in freshly paused initial state; root will correct Boolean coercion and recapture HUD separately",
+  "files": [
+    "aircraft-rear-high",
+    "aircraft-rear-balanced",
+    "aircraft-detail-high",
+    "aircraft-detail-balanced",
+    "aircraft-bank-boost",
+    "aircraft-enemy-detail",
+    "aircraft-portrait-hud",
+    "terrain-flight-high",
+    "terrain-flight-balanced",
+    "terrain-close-high",
+    "terrain-close-balanced",
+    "terrain-water-phase-plus4",
+    "terrain-neutral-albedo",
+    "damage-baseline",
+    "damage-impact",
+    "damage-camera-crossing",
+    "distant-destruction",
+    "comparison-local",
+    "comparison-latest",
+    "comparison-masked"
+  ]
+}
